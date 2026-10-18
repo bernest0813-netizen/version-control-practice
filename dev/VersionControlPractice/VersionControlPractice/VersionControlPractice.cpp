@@ -6,6 +6,7 @@ int main()
 {
     Crypt crypt; // create the obj
     crypt.DisplayMessage(); // display the message
+	std::cout << "You are standing in front of a dark and ominous crypt.\n";
     std::cout << "\n1. Enter the Crypt\n";
     std::cout << "2. Flee\n";
 
